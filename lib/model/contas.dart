@@ -1,9 +1,9 @@
 class Contas{
-  String conta = '';
   String descricao = '';
-  String data = '';
+  String detalhes = '';
+  String valor = '';
 
-  Contas({required this.conta, required this.descricao, required this.data});
+  Contas({required this.descricao, required this.detalhes, required this.valor});
 
 
 }

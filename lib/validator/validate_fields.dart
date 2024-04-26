@@ -39,5 +39,12 @@ class ValidatorFields{
     }
 
   }
+  bool validateFieldFloat(){
+    if(controller.text.isNotEmpty){
+      return true;
+    }else{
+      return false;
+    }
+  }
 
 }
